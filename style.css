@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+	font-family: "Trebuchet MS";
+	text-align: center;
+	background-image: url("img/background.png");
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+    overflow: hidden;
+    background-color: red;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: black;
+}
+.naslov {
+	font-size: 2em;
+	text-align: center;
+	color: red;
+	padding: 4em;
+}
+
+
+table {
+	text-align: left;
+	color: red;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1em;
+	font-size: 25px;
+	
+}
+
+button{
+	background-color: red;
+	color: white;
+	font-size: 25px;
+}
+
+input{
+	font-size: 25px;
+	
+}
