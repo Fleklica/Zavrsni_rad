@@ -56,3 +56,14 @@ input{
 	font-size: 25px;
 	
 }
+
+.sadrzaj{
+	list-style-type: none;
+    margin: 1;
+    padding: 1;
+    overflow: hidden;
+	text-align: center;
+	color: red;
+	
+
+}

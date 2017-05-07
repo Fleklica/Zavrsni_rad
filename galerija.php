@@ -16,8 +16,8 @@
 		</ul>
 		
 
-		  <div class="content">
-			<h1> Map</h1>
+		  <div class="sadrzaj">
+			<h1>SLIČKE</h1>
 		
 			<?php
 
@@ -37,7 +37,7 @@
 
 		?>
 		
-		<ul>
+		
 
 			<?php
 			// loop through the array of files and print them all in a list
@@ -49,7 +49,7 @@
 			}
 			?>
 
-		</ul>	
+		
 				
 			
 			
