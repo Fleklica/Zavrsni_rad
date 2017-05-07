@@ -11,8 +11,6 @@
 	
 		<ul>
 		  <li><a href="index.php">Početna</a></li>
-		  <li><a href="login.php">Login</a></li>
-		  <li><a href="registracija.php">Registracija</a></li>
 		  <li><a class="active" href="narudzba.php">Narudžba</a></li>
 		  <li><a href="galerija.php">Galerija</a></li>
 		</ul>

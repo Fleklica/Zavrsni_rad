@@ -11,20 +11,53 @@
 	
 		<ul>
 		  <li><a href="index.php">Početna</a></li>
-		  <li><a href="login.php">Login</a></li>
-		  <li><a href="registracija.php">Registracija</a></li>
 		  <li><a href="narudzba.php">Narudžba</a></li>
 		  <li><a class="active" href="galerija.php">Galerija</a></li>
 		</ul>
 		
 
-		<div class="naslov";> 
-			<h1>OVO JE galerija.php</h1>
-			
-		</div>
+		  <div class="content">
+			<h1> Map</h1>
 		
-	
-		</div>
+			<?php
+
+		// open this directory 
+		$myDirectory = opendir("slike");
+
+		// get each entry
+		while($entryName = readdir($myDirectory)) {
+			$dirArray[] = $entryName;
+		}
+
+		// close directory
+		closedir($myDirectory);
+
+		//	count elements in array
+		$indexCount	= count($dirArray);
+
+		?>
+		
+		<ul>
+
+			<?php
+			// loop through the array of files and print them all in a list
+			for($index=0; $index < $indexCount; $index++) {
+				$extension = substr($dirArray[$index], -3);
+				if ($extension == 'jpg'){ // list only jpgs
+					echo '<li><img src="slike/' . $dirArray[$index] . '" alt="Image" /><span>' . $dirArray[$index] . '</span>';
+				}	
+			}
+			?>
+
+		</ul>	
+				
+			
+			
+			</div>
+		
 
 	</body>
 </html>
+
+
+
