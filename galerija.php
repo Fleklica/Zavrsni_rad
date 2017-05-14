@@ -1,3 +1,4 @@
+<?php require('db.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,14 +11,14 @@
 	<body>
 	
 		<ul>
-		  <li><a href="index.php">Početna</a></li>
-		  <li><a href="narudzba.php">Narudžba</a></li>
+		  <li><a href="index.php">Pocetna</a></li>
+		  <li><a href="narudzba.php">Narudzba</a></li>
 		  <li><a class="active" href="galerija.php">Galerija</a></li>
 		</ul>
 		
 
 		  <div class="sadrzaj">
-			<h1>SLIČKE</h1>
+			<h1>SLICKE</h1>
 		
 			<?php
 
@@ -58,6 +59,3 @@
 
 	</body>
 </html>
-
-
-

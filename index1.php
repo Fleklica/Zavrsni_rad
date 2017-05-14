@@ -1,5 +1,5 @@
 <?php require('db.php'); ?>
-
+<?php require('check.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -12,10 +12,12 @@
 	<body>
 	
 		<ul>
-		  <li><a class="active" href="index.php">Pocetna</a></li>
+		  <li><a class="active" href="index1.php">Pocetna</a></li>
 		  <li><a href="narudzba.php">Narudzba</a></li>
 		  <li><a href="galerija.php">Galerija</a></li>
-<li><a href="login.php">Login</a></li>
+                  <li><a href="upload.php">Dodavanje slika</a></li>
+                  <li><a href="popis.php">Popis narudzbi</a></li>
+
 		</ul>
 		
 
