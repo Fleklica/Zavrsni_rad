@@ -14,6 +14,7 @@
 		  <li><a href="index.php">Pocetna</a></li>
 		  <li><a class="active" href="narudzba.php">Narudzba</a></li>
 		  <li><a href="galerija.php">Galerija</a></li>
+		  <li><a href="login.php">Login</a></li>
 		</ul>
 		
 

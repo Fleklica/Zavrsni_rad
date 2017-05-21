@@ -13,21 +13,27 @@
 	
 		<ul>
 		  <li><a href="index1.php">Pocetna</a></li>
-		  <li><a href="narudzba.php">Narudzba</a></li>
-		  <li><a href="galerija.php">Galerija</a></li>
-                  <li><a class="active" href="upload.php">Dodavanje slika</a></li>
-                  <li><a href="popis.php">Popis narudzbi</a></li>
+		  <li><a href="galerija1.php">Galerija</a></li>
+          <li><a class="active" href="upload.php">Dodavanje slika</a></li>
+          <li><a href="popis.php">Popis narudzbi</a></li>
 
 		</ul>
 		
 
 		<div class="naslov";> 
-			<h1>Moja galerija</h1>
-			<h2>Podnaslov</h2>
-		</div>
+			<h1>Dodavanje slika</h1>
+		
+		<form action="uploade.php" method="post" enctype="multipart/form-data">
+		Odaberi sliku:
+		<input type="file" name="fileToUpload" id="fileToUpload"><br>
+		<input type="submit" value="Upload Image" name="submit">
+		</form>
+
+                </div>
+		
 		
 	
-		</div>
+		
 
 	</body>
 </html>

@@ -13,17 +13,16 @@
 	
 		<ul>
 		  <li><a href="index1.php">Pocetna</a></li>
-		  <li><a href="narudzba.php">Narudzba</a></li>
-		  <li><a href="galerija.php">Galerija</a></li>
-                  <li><a href="upload.php">Dodavanje slika</a></li>
-                  <li><a class="active" href="popis.php">Popis narudzbi</a></li>
+		  <li><a href="galerija1.php">Galerija</a></li>
+          <li><a href="upload.php">Dodavanje slika</a></li>
+          <li><a class="active" href="popis.php">Popis narudzbi</a></li>
 
 		</ul>
 		
 
 		<div class="naslov";> 
-			<h1>Moja galerija</h1>
-			<h2>Podnaslov</h2>
+			<h1>Narudzbe:</h1>
+			
 		</div>
 		
 	

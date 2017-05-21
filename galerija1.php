@@ -1,4 +1,5 @@
 <?php require('db.php'); ?>
+<?php require('check.php'); ?>
 <!DOCTYPE html>
 <html>
 
@@ -11,10 +12,10 @@
 	<body>
 	
 		<ul>
-		  <li><a href="index.php">Pocetna</a></li>
-		  <li><a href="narudzba.php">Narudzba</a></li>
-		  <li><a class="active" href="galerija.php">Galerija</a></li>
-		  <li><a href="login.php">Login</a></li>
+		  <li><a href="index1.php">Pocetna</a></li>
+		  <li><a class="active" href="galerija1.php">Galerija</a></li>
+		  <li><a href="upload.php">Dodavanje slika</a></li>
+          <li><a href="popis.php">Popis narudzbi</a></li>
 		</ul>
 		
 
@@ -46,7 +47,7 @@
 			for($index=0; $index < $indexCount; $index++) {
 				$extension = substr($dirArray[$index], -3);
 				if ($extension == 'jpg'){ // list only jpgs
-					echo '<li id ="slika"><img src="slike/' . $dirArray[$index] . '" alt="Image" /><span>'. $dirArray[$index] .  '</span>';
+					echo '<li><img src="slike/' . $dirArray[$index] . '" alt="Image" /><span>' . $dirArray[$index] . '</span>';
 				}	
 			}
 			?>

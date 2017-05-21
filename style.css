@@ -28,7 +28,7 @@ li a {
 .active {
     background-color: black;
 }
-.naslov {
+.naslov{
 	font-size: 2em;
 	text-align: center;
 	color: red;
@@ -39,10 +39,10 @@ li a {
 table {
 	text-align: left;
 	color: red;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 1em;
-	font-size: 25px;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 1em;
+        divont-size: 25px;
 	
 }
 
@@ -59,11 +59,13 @@ input{
 
 .sadrzaj{
 	list-style-type: none;
-    margin: 1;
-    padding: 1;
-    overflow: hidden;
+        margin: 5em;
+        overflow: hidden;
 	text-align: center;
 	color: red;
-	
-
+        font-size: 20px;
+}
+.slika{
+	border: solid red;
+	margin: 1em;
 }
